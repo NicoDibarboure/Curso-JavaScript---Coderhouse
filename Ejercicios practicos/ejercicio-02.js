@@ -1,0 +1,10 @@
+const ciudad1 = prompt("Indique el nombre de la ciudad 1:");
+const ciudad2 = prompt("Indique el nombre de la ciudad 2:");
+const ciudad3 = prompt("Indique el nombre de la ciudad 3:");
+const ciudad4 = prompt("Indique el nombre de la ciudad 4:");
+const ciudad5 = prompt("Indique el nombre de la ciudad 5:");
+console.log(`Ciudad 1: ${ciudad1}`);
+console.log(`Ciudad 2: ${ciudad2}`);
+console.log(`Ciudad 3: ${ciudad3}`);
+console.log(`Ciudad 4: ${ciudad4}`);
+console.log(`Ciudad 5: ${ciudad5}`);
