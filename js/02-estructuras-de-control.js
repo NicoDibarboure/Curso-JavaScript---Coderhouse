@@ -22,22 +22,22 @@ let n2 = 10;
 //   console.log(`Tu nombre es: ${nombre} y tu edad es de: ${edad} años.`);
 // }
 
-let estaLogeado = true;
+// let estaLogeado = true;
 
-if (estaLogeado) {
-  console.log("Tienes Acceso.");
-} else {
-  console.log("No tienes acceso.");
-}
-let acompañado = true;
+// if (estaLogeado) {
+//   console.log("Tienes Acceso.");
+// } else {
+//   console.log("No tienes acceso.");
+// }
+// let acompañado = true;
 // let edad = Number(prompt("Ingresa tu edad"));
-if (edad > 17) {
-  console.log("podes entrar");
-} else if (edad < 18 && acompañado) {
-  console.log("podes entrar con el adulto.");
-} else {
-  console.log("No podes entrar.");
-}
+// if (edad > 17) {
+//   console.log("podes entrar");
+// } else if (edad < 18 && acompañado) {
+//   console.log("podes entrar con el adulto.");
+// } else {
+//   console.log("No podes entrar.");
+// }
 
 // && AND
 // || OR
