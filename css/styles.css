@@ -5,6 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-.title {
-  color: steelblue;
+body {
+  background-color: #333;
+  color: rgb(174, 238, 149);
 }
