@@ -67,3 +67,22 @@ let calcularVentaTotal = () => {
 
 let totalVendido = calcularVentaTotal();
 console.log(totalVendido);
+
+let numeritos = [1, 5, 7, 8, 9];
+console.log(numeritos.length);
+
+console.log(numeritos);
+let x = numeritos.push("pepe", "juan", 14, true, {}, "algo mas"); // Push sirve para agregar al final de un array
+console.log(x);
+
+let existe = numeritos.includes("juan"); // Siempre el metodo INCLUDES devuelve un booleano.
+console.log(existe);
+
+// Pop sirve para eliminar el ultimo elemento de un array.
+
+numeritos.pop();
+numeritos.pop();
+
+let z = numeritos.pop();
+
+console.log(z);
