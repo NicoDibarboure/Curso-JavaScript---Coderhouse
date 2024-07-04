@@ -21,3 +21,49 @@ console.log(nombre[0]); // J
 console.log(palabras.length);
 
 // Siempre la ultima posicion de un array es el length - 1.
+
+for (let i = 0; i < palabras.length; i++) {
+  palabras[i] += "!";
+}
+
+console.log(palabras);
+
+// Arrays de objetos
+
+let telefonos = [
+  {
+    marca: "iPhone",
+    modelo: "12 Pro Max",
+    color: "Gris",
+    precio: 1200,
+    stock: 15,
+  },
+  {
+    marca: "Samsung",
+    modelo: "Galaxy S21",
+    color: "Negro",
+    precio: 1200,
+    stock: 15,
+  },
+];
+
+class Telefono {
+  constructor(nombre, precio, stock) {
+    (this.nombre = nombre), (this.precio = precio), (this.stock = stock);
+  }
+}
+
+let calcularVentaTotal = () => {
+  // Devolver el total que ganaria
+
+  let valorTotal = 0;
+
+  for (let i = 0; i < telefonos.length; i++) {
+    valorTotal += telefonos[i].precio * telefonos[i].stock;
+  }
+
+  return valorTotal;
+};
+
+let totalVendido = calcularVentaTotal();
+console.log(totalVendido);
